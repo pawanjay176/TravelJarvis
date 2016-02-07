@@ -1,0 +1,105 @@
+{
+	"subject" : "Listing",
+	"columns" : [{
+			"key" : "weather",
+			"type" : "numeric",
+			"goal" : "min",
+			"full_name" : "Weather",
+			"is_objective" : true,
+			"format" : "Rs.####0.00"
+		}, {
+			"key" : "crime",
+			"type" : "numeric",
+			"goal" : "min",
+			"full_name" : "Crime",
+			"is_objective" : true
+			
+		}, {
+			"key" : "safety",
+			"type" : "numeric",
+			"goal" : "max",
+			"full_name" : "Safety",
+			"is_objective" : true
+		}
+	],
+	
+	"options" : [{
+			"key" : "1",
+			"name" : "High seas scuba diving",
+			"place" : "Grande Island",
+			"category": "Adventure",
+			"values" : {
+				"weather": 8,
+				"crime": 8,
+				"safety": 4    
+			},
+			"description_html" : "<img style='max-height: 100px; max-width: 100px;'  src=''/> <a title='Photo by Samsung Belgium (Flickr: GALAXY S4 zoom (1)) [CC BY 2.0 (http://creativecommons.org/licenses/by/2.0)], via Wikimedia Commons' href='http://commons.wikimedia.org/wiki/File:Samsung_GALAXY_S4_zoom_(White).jpg' target='_blank'> <img style='max-height: 14px; max-width: 14px;'  src='http://s3-ap-southeast-1.amazonaws.com/media.thrillophilia.com/site/images/photos/000/052/141/medium/3.jpg'/> </a>"
+		}, {
+			"key" : "2",
+			"name" : "Scuba diving and snorkelling",
+			"place" : "Bogmalo Beach",
+			"category": "Adventure",
+			"values" : {
+				"weather": 8,
+				"crime": 4,
+				"safety": 4    
+			},
+			"description_html" : "<img style='max-height: 100px; max-width: 100px;'  src=''/><a title='Photo by Karlis Dambrans (Flickr: Samsung Galaxy S4) [CC BY 2.0 (http://creativecommons.org/licenses/by/2.0)], via Wikimedia Commons' href='http://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S4.jpg' target='_blank'> <img style='max-height: 14px; max-width: 14px;'  src='http://s3-ap-southeast-1.amazonaws.com/media.thrillophilia.com/site/images/photos/000/052/141/medium/3.jpg'/> </a>"
+		}, {
+			"key" : "3",
+			"name" : "Rafting at Valpori river",
+			"place" : "Valpori river",
+			"category": "Adventure",
+			"values" : {
+				"weather": 9,
+				"crime": 7,
+				"safety": 5    
+			},
+			"description_html" : "<img style='max-height: 100px; max-width: 100px;'  src=''/><a title='Photo by Karlis Dambrans (Flickr: Samsung Galaxy S4) [CC BY 2.0 (http://creativecommons.org/licenses/by/2.0)], via Wikimedia Commons' href='http://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S4.jpg' target='_blank'> <img style='max-height: 14px; max-width: 14px;'  src='http://s3-ap-southeast-1.amazonaws.com/media.thrillophilia.com/site/images/photos/000/047/860/medium/1.JPG'/> </a>"
+		}, {
+			"key" : "4",
+			"name" : "JetSki Adventure",
+			"place" : "Mobor Beach",
+			"category": "Adventure",
+			"values" : {
+				"weather": 5,
+				"crime": 8,
+				"safety": 7    
+			},
+			"description_html" : "<img style='max-height: 100px; max-width: 100px;'  src=''/><a title='Photo by Karlis Dambrans (Flickr: Samsung Galaxy S4) [CC BY 2.0 (http://creativecommons.org/licenses/by/2.0)], via Wikimedia Commons' href='http://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S4.jpg' target='_blank'> <img style='max-height: 14px; max-width: 14px;'  src='http://s3-ap-southeast-1.amazonaws.com/media.thrillophilia.com/site/images/photos/000/045/725/medium/1.jpg'/> </a>"
+		}, {
+			"key" : "5",
+			"name" : "Swim with Dolphins",
+			"place" : "Mobor Beach",
+			"category": "Outdoor",
+			"values" : {
+				"weather": 5,
+				"crime": 8,
+				"safety": 7    
+			},
+			"description_html" : "<img style='max-height: 100px; max-width: 100px;'  src=''/><a title='Photo by Karlis Dambrans (Flickr: Samsung Galaxy S4) [CC BY 2.0 (http://creativecommons.org/licenses/by/2.0)], via Wikimedia Commons' href='http://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S4.jpg' target='_blank'> <img style='max-height: 14px; max-width: 14px;'  src='http://s3-ap-southeast-1.amazonaws.com/media.thrillophilia.com/site/images/photos/000/047/781/medium/1.jpg'/> </a>"
+		}, {
+			"key" : "6",
+			"name" : "Biking the islands of Goa",
+			"place" : "Ribandar Panaji",
+			"category": "Outdoor",
+			"values" : {
+				"weather": 5,
+				"crime": 2,
+				"safety": 7    
+			},
+			"description_html" : "<img style='max-height: 100px; max-width: 100px;'  src=''/><a title='Photo by Karlis Dambrans (Flickr: Samsung Galaxy S4) [CC BY 2.0 (http://creativecommons.org/licenses/by/2.0)], via Wikimedia Commons' href='http://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S4.jpg' target='_blank'> <img style='max-height: 14px; max-width: 14px;'  src='http://s3-ap-southeast-1.amazonaws.com/media.thrillophilia.com/site/images/photos/000/047/971/medium/1.jpg'/> </a>"
+		} , {
+			"key" : "7",
+			"name" : "Old Goa churches Tour",
+			"place" : "Colem village",
+			"category": "Religious",
+			"values" : {
+				"weather": 5,
+				"crime": 4,
+				"safety": 8    
+			},
+			"description_html" : "<img style='max-height: 100px; max-width: 100px;'  src=''/><a title='Photo by Karlis Dambrans (Flickr: Samsung Galaxy S4) [CC BY 2.0 (http://creativecommons.org/licenses/by/2.0)], via Wikimedia Commons' href='http://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S4.jpg' target='_blank'> <img style='max-height: 14px; max-width: 14px;'  src='http://s3-ap-southeast-1.amazonaws.com/media.thrillophilia.com/site/images/photos/000/046/323/medium/thumb.jpg'/> </a>"
+		}
+	]
+}

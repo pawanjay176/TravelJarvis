@@ -1,0 +1,54 @@
+[{
+		"name": "High seas scuba diving",
+		"place": "Grande island",
+		"category": "Adventure",
+		"weather": 8,
+		"crime": 8,
+		"safety": 4
+	}, {
+		"name": "Scuba diving and snorkelling",
+		"place": "Bogmalo Beach",
+		"category": "Adventure",
+		"weather": 8,
+		"crime": 4,
+		"safety": 4
+	}, {
+		"name": "Rafting at Valpori river",
+		"place": "Valpori river",
+		"category": "Adventure",
+		"weather": 9,
+		"crime": 7,
+		"safety": 3
+	}, {
+		"name": "JetSki Adventure at Mobor Beach",
+		"place": "Mobor beach",
+		"category": "Adventure",
+		"weather": 5,
+		"crime": 8,
+		"safety": 7
+	}, {
+		"name": "Swim with Dolphins at Mobor Beach",
+		"place": "Mobor Beach",
+		"category": "Outdoor",
+		"weather": 5,
+		"crime": 8,
+		"safety": 7
+	}, {
+		"name": "Biking the islands of Goa",
+		"place": "Ribandar, Panaji",
+		"category": "Outdoor",
+		"weather": 5,
+		"crime": 2,
+		"safety": 7
+	}, {
+		"name": "Old Goa churches Tour",
+		"place": "Colem village",
+		"category": "Religious",
+		"weather": 5,
+		"crime": 2,
+		"safety": 7
+	}
+
+
+
+]
